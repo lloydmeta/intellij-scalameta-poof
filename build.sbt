@@ -8,6 +8,7 @@ scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.0-SNAP6" % Test,
+  "org.typelevel" %% "cats" % "0.9.0" % Test,
   "com.beachape" %% "diesel-core" % "0.2.0" % Compile
 )
 
